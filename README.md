@@ -33,7 +33,7 @@ execution role to place in your project file.  This command will create an addit
 IAM role under your default (or specified) AWS CLI profile, and modify your project
 file to specify it as the execution default.
 
-# Use an existing IAM role
+### Use an existing IAM role
 
 Otherwise, manually add an IAM role ARN under the function's `:role` key in the
 `:functions` vector of your profile file, or in `:cljs-lambda` -> `:defaults` ->
